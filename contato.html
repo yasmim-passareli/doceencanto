@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre em contato com a Doce Encanto.">
+  <title>Doce Encanto | Contato</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html"><span class="logo-mark">✿</span><span>doce <strong>encanto</strong><small>feito com carinho</small></span></a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav"><a href="index.html">Início</a><a href="produtos.html">Produtos</a><a class="active" href="contato.html">Contato</a></nav>
+  </header>
+
+  <main>
+    <section class="page-banner contact-banner">
+      <span class="eyebrow">ESTAMOS AQUI PARA VOCÊ</span>
+      <h1>Vamos conversar<br><em>sobre coisas doces?</em></h1>
+      <p>Envie uma mensagem. Será um prazer atender você!</p>
+      <span class="banner-decoration">♡</span>
+    </section>
+
+    <section class="section-wrap contact-layout">
+      <div class="contact-details">
+        <span class="eyebrow">FALE COM A GENTE</span>
+        <h2>Será um prazer<br><em>receber seu contato.</em></h2>
+        <p class="contact-intro">Tem dúvidas, quer saber mais sobre nossos produtos ou fazer um pedido? Use um dos canais abaixo ou envie sua mensagem pelo formulário.</p>
+        <div class="contact-item"><span>⌖</span><div><small>ENDEREÇO</small><strong>Sorriso – MT</strong></div></div>
+        <div class="contact-item"><span>☎</span><div><small>TELEFONE</small><strong>(66) 99999-9999</strong></div></div>
+        <div class="contact-item"><span>✉</span><div><small>E-MAIL</small><strong>contato@doceencanto.com</strong></div></div>
+        <div class="contact-note">♡ Obrigado por escolher a Doce Encanto!</div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <h3>Envie sua mensagem</h3>
+        <p>Preencha os campos abaixo.</p>
+        <label for="name">Nome completo</label>
+        <input id="name" name="name" type="text" placeholder="Como podemos chamar você?" required>
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" placeholder="seuemail@exemplo.com" required>
+        <label for="subject">Assunto</label>
+        <input id="subject" name="subject" type="text" placeholder="Ex.: Pedido de doces">
+        <label for="message">Mensagem</label>
+        <textarea id="message" name="message" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+        <button class="button button-primary submit-button" type="submit">Enviar mensagem <span>→</span></button>
+        <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+        <small class="form-disclaimer">Demonstração acadêmica: o formulário valida os dados no navegador, mas ainda não envia mensagens para um servidor.</small>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="logo logo-footer" href="index.html"><span class="logo-mark">✿</span><span>doce <strong>encanto</strong><small>feito com carinho</small></span></a><p>© <span class="year"></span> Doce Encanto. Todos os direitos reservados.</p><a href="produtos.html">Conheça os produtos</a></footer>
+</body>
+</html>
